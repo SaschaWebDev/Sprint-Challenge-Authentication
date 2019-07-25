@@ -22,8 +22,8 @@ describe('server environment tests', () => {
       );
     });
 
-    describe('POST to get jokes ', () => {
-      it('should return 200 OK', () => {
+    describe('POST TO LOGIN  ', () => {
+      it('should return 500 for incorrect columns on the table', () => {
         return (
           request(server)
             .post('/api/login')
