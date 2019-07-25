@@ -11,7 +11,7 @@ describe('users model', () => {
     await db('users').truncate();
   });
 
-  //
+  // Testing out the register function of the db
   describe('register function', () => {
     it('registers a  user into for the database', async () => {
       let users;
